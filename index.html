@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML+CSS+JS - Formulario</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main class="container-principal">
+        <div class="informacoes">
+            <h2>FICOU COM DÚVIDA?<br>
+                NOS MANDE UMA MENSAGEM!
+            </h2>
+            <span>caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em contato em menos de 24h !</span>
+        </div>
+        <form class="cartao-formulario" id="form">
+            <div class="info-formulario">
+                <div class="campo">
+                    <input type="text" class="item required" placeholder="Nome completo *">
+                    <p class="error">campo obrigatório</p>
+                </div>
+                <div class="campo">
+                    <input type="text" class="item required" placeholder="Email *">
+                    <p class="error">digite um email valido - campo obrigatório.</p>
+                </div>
+                <div class="campo">
+                    <input type="text" class="item required" placeholder="Telefone *">
+                    <p class="error">campo obrigatório</p>
+                </div>
+                <div class="campo mensagem">
+                    <textarea type="text" class="item required" cols="20" rows="10" placeholder="Mensagem *"></textarea>
+                    <p class="error">campo obrigatório</p>
+                </div>
+                <span>*campos obrigatórios</span>
+
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>

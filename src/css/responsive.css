@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    .container-principal{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cartao-formulario{
+        margin-right: 0px;
+        margin: 5%;
+    }
+
+    .informacoes{
+        padding: 3%;
+        margin: 5%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container-principal{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-height: 100vh;
+    }
+    
+    .cartao-formulario{
+        min-width: 80%;
+        margin-right: 0px;
+    }
+
+    .informacoes{
+        padding: 5%;
+        margin: 0px;
+    }
+
+    .informacoes h2{
+        font-size: 18px;
+    }
+
+    .informacoes span{
+        font-size: 12px;
+    }
+
+}
