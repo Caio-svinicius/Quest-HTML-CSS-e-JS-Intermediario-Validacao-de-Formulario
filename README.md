@@ -9,7 +9,7 @@
 
 ### Layout Mobile
 
-[<img src="./src/images/mobile.png">]
+[<img src="./src/images/Mobile.png">]
 
 ## Tecnologias utilizadas.
 
